@@ -37,7 +37,7 @@ Furthermore, it eliminates inter-observer variability by standardizing the analy
 # Statement of need
 
 Medical personals and clinical researchers can spend countless hours manually quantifying the capillary density in a microcirculation image captured from a microscope.
-This manual analysis method can be a bottleneck for providing the results within a reasonable time frame when hundreds of patients request their capillary density to be quantified. Furthermore, this method is prone to human errors and inter-observer variability between the clinical researchers. This statement of need is further strengthened by the research paper created by the European Society of Intensive Care Medicine on the assessment of sublingual microcirculation in critically ill patients \cite{ince2018second} where they stated the need for developing a system that can automatically quantify capillaries. Thus, the main goal of this software is to reduce the time needed for capillary quantification while maintaining comparable accuracy of analysis which is 85% [@Pearson:2017] 
+This manual analysis method can be a bottleneck for providing the results within a reasonable time frame when hundreds of patients request their capillary density to be quantified. Furthermore, this method is prone to human errors and inter-observer variability between the clinical researchers. This statement of need is further strengthened by the research paper created by the European Society of Intensive Care Medicine on the assessment of sublingual microcirculation in critically ill patients [@ince:2018]  where they stated the need for developing a system that can automatically quantify capillaries. Thus, the main goal of this software is to reduce the time needed for capillary quantification while maintaining comparable accuracy of analysis which is 85% [@helmy:2021] 
 
 
 # Figures
@@ -55,3 +55,4 @@ We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
 Oh, and support from Kathryn Johnston during the genesis of this project.
 
 # References
+The authors would like to thank the Research Council of Norway for providing the necessary funds for this project: Industrial Ph.D. project nr: 305716 and BIA project nr: 282213. The authors would also like to thank the MedTech Partner ODI Medical AS for providing the data, hardware, and support to test and evaluate this project.
