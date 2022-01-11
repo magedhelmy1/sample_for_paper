@@ -51,8 +51,7 @@ Figure sizes can be customized by adding an optional second parameter:
 
 # Acknowledgements
 
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
+The authors would like to thank the Research Council of Norway for providing the necessary funds for this project: Industrial Ph.D. project nr: 305716 and BIA project nr: 282213. The authors would also like to thank the MedTech Partner ODI Medical AS for providing the data, hardware, and support to test and evaluate this project.
 
 # References
-The authors would like to thank the Research Council of Norway for providing the necessary funds for this project: Industrial Ph.D. project nr: 305716 and BIA project nr: 282213. The authors would also like to thank the MedTech Partner ODI Medical AS for providing the data, hardware, and support to test and evaluate this project.
+
