@@ -1,33 +1,26 @@
 ---
-title: 'Gala: A Python package for galactic dynamics'
+title: 'HDI: High Demand Image Analysis using Deep Learning for Microcirculation Image Analysis'
 tags:
   - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - Django
+  - React
+  - Tensorflow
 authors:
-  - name: Adrian M. Price-Whelan^[co-first author] # note this makes a footnote saying 'co-first author'
-    orcid: 0000-0003-0872-7098
-    affiliation: "1, 2" # (Multiple affiliations must be quoted)
-  - name: Author Without ORCID^[co-first author] # note this makes a footnote saying 'co-first author'
+  - name: Maged Abdalla Helmy^[co-first author]
+    affiliation: 1
+  - name: Eric Jul
+    affiliation: 1
+  - name: Paulo Ferreira
+    affiliation: 1
+  - name: Trung Tuyen Truong
     affiliation: 2
-  - name: Author with no affiliation^[corresponding author]
-    affiliation: 3
 affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University
+ - name: Department of Informatics - University of Oslo
    index: 1
- - name: Institution Name
+ - name: Department of Mathematics - University of Oslo
    index: 2
- - name: Independent Researcher
-   index: 3
 date: 13 August 2017
 bibliography: paper.bib
-
-# Optional fields if submitting to a AAS journal too, see this blog post:
-# https://blog.joss.theoj.org/2018/12/a-new-collaboration-with-aas-publishing
-aas-doi: 10.3847/xxxxx <- update this with the DOI from AAS once you know it.
-aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
 
 # Summary
