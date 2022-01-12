@@ -54,7 +54,7 @@ Figure \autoref{fig:context} starts with the high-level overview of the system a
 Figure \autoref{fig:container} shows the system containers within the system context and shows the high-level technical blocks within the containers.
 Figure \autoref{fig:component} is a detailed view of the system containers and breaks down each container identifying the responsible functions that execute a set of specific actions.
 
-The main components of the technology stack included Tensorflow library [@abadi2016tensorflow], React library [@gackenheimer2015introduction], Django server-side web framework [@forcier2008python], Nginx reverse proxy [@nedelcu2010nginx], Gunicorn HTTP server [@gunicorn2017http], Celery [@mcleod2015framework], Redis [@carlson2013redis], Postgres [@stonebraker1986design] and Django REST framework toolkit [@hhillar2018django].
+The main components of the technology stack included Tensorflow library [@abadi2016tensorflow], React library [@gackenheimer2015introduction], Django server-side web framework [@forcier2008python], Nginx reverse proxy [@nedelcu2010nginx], Gunicorn HTTP server [@gunicorn2017http], Celery [@mcleod2015framework], Redis [@carlson2013redis], Postgres [@conrad2021database] and Django REST framework toolkit [@hillar2018django].
 Our current systems run on an Ubuntu server served by DigitalOcean cloud. However, the system is containerized. Therefore, it can run in any other cloud service provider like AWS, Azure, GCP or locally on the computer.
 
 
