@@ -60,7 +60,7 @@ It consists of
 
 
 
-![The System Context View figure.\label{fig:context}](context.png)
+![The System Context View figure.\label{fig:context}](paper4-SystemContext.png)
 
 ![The System Container View figure.\label{fig:container}](container.png)
 
