@@ -45,6 +45,15 @@ Thus, the main goal of this software is to reduce the time needed for capillary 
 
 The authors have provided an extensive literature review in section 2 of the paper `CapillaryNet: An Automated System to Analyze Microcirculation Videos from Handheld Vital Microscopy` [@helmy:2021].
 
+# Past and Ongoing Project Using the Software
+
+The software has been used for the following clinical trials conducted by ODI Medical AS[@odi:2022]:
+
+- Capillary Detection from patients who recieved support from a Extracorporeal Membrane Oxygenation Machines.
+- Capillary Detection from patients with Acute Heart Diseases.
+- Capillary Detection from diabetic patients.
+- Capillary Detection from Covid19 patients.
+
 # System Design
 
 The proposed system contains six main blocks: the algorithms, backend, API, distributed task queue, server, and frontend.
