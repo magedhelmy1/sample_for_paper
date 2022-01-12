@@ -47,28 +47,26 @@ The authors have provided an extensive literature review in section 2 of the pap
 
 # System Design
 
+The sysem design has been illustrated using 3 figures.
 
-|    Frontend    	| HTML + CSS + Javascript 	|
-|  Deep Learning 	|        Tensorflow       	|
-| Image Analysis 	|          OpenCV         	|
-|     Backend    	|          Python         	|
-|       API      	|          Python         	|
-|    Database    	|    Postgres + Reddis    	|
-|     Server     	|     Nginx + Gunicorn    	|
-|      Cloud     	|       DigitalCloud      	|
-Captio
+Figure \autoref{fig:context} starts with the high level overview of the system and shows the System Context.
+It consists of
 
-- Insert 3 architecture diagrams
+Figure \autoref{fig:container} shows the system containers within the system context.
+It consists of
+
+Figure \autoref{fig:component} is a detailed view of the system containers and shows the system components.
+It consists of
 
 
-# Figures
 
-Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
-and referenced from text using \autoref{fig:example}.
+![The System Context View figure.\label{fig:context}](context.png)
 
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
+![The System Container View figure.\label{fig:container}](container.png)
+
+![The System Component View figure.\label{fig:component}](component.png)
+
+
 
 # Acknowledgements
 
