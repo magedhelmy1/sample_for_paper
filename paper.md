@@ -37,7 +37,28 @@ Furthermore, it eliminates inter-observer variability by standardizing the analy
 # Statement of need
 
 Medical personals and clinical researchers can spend countless hours manually quantifying the capillary density in a microcirculation image captured from a microscope.
-This manual analysis method can be a bottleneck for providing the results within a reasonable time frame when hundreds of patients request their capillary density to be quantified. Furthermore, this method is prone to human errors and inter-observer variability between the clinical researchers. This statement of need is further strengthened by the research paper created by the European Society of Intensive Care Medicine on the assessment of sublingual microcirculation in critically ill patients [@ince:2018]  where they stated the need for developing a system that can automatically quantify capillaries. Thus, the main goal of this software is to reduce the time needed for capillary quantification while maintaining comparable accuracy of analysis which is 85% [@helmy:2021] 
+This manual analysis method can be a bottleneck for providing the results within a reasonable time frame when hundreds of patients request their capillary density to be quantified. Furthermore, this method is prone to human errors and inter-observer variability between the clinical researchers. This statement of need is further strengthened by the research paper created by the European Society of Intensive Care Medicine on the assessment of sublingual microcirculation in critically ill patients [@ince:2018]  where they stated the need for developing a system that can automatically quantify capillaries.
+The development of such automated systems makes microcirculation analysis feasible in a clinical environment (i.e., hospitals).
+Thus, the main goal of this software is to reduce the time needed for capillary quantification while maintaining comparable accuracy of analysis which is 85%.
+
+# State of the Art:
+
+The authors have provided an extensive literature review in section 2 of the paper `CapillaryNet: An Automated System to Analyze Microcirculation Videos from Handheld Vital Microscopy` [@helmy:2021].
+
+# System Design
+
+
+|    Frontend    	| HTML + CSS + Javascript 	|
+|  Deep Learning 	|        Tensorflow       	|
+| Image Analysis 	|          OpenCV         	|
+|     Backend    	|          Python         	|
+|       API      	|          Python         	|
+|    Database    	|    Postgres + Reddis    	|
+|     Server     	|     Nginx + Gunicorn    	|
+|      Cloud     	|       DigitalCloud      	|
+Captio
+
+- Insert 3 architecture diagrams
 
 
 # Figures
