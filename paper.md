@@ -62,9 +62,9 @@ It consists of
 
 ![The System Context View figure.\label{fig:context}](paper4-SystemContext.png)
 
-![The System Container View figure.\label{fig:container}](container.png)
+![The System Container View figure.\label{fig:container}](paper4-SystemContainers.png)
 
-![The System Component View figure.\label{fig:component}](component.png)
+![The System Component View figure.\label{fig:component}](paper4-SystemComponents.png)
 
 
 
