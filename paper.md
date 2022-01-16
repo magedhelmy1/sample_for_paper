@@ -12,7 +12,7 @@ authors:
     affiliation: 1
   - name: Paulo Ferreira
     affiliation: 1
-  - name: Trung Tuyen Truong
+  - name: Tuyen Trung Truong
     affiliation: 2
 affiliations:
  - name: Department of Informatics - University of Oslo
