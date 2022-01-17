@@ -26,12 +26,12 @@ bibliography: paper.bib
 # Summary
 
 Analyzing the microvascular supply by quantifying the capillary area can predict life-threatening diseases like Sepsis.
-Estimating the capillary area knowledge can assist medical personals in the decision-making process towards the patient's treatment.
-Readily available handheld microscopes have allowed the ease of capturing capillary images from the microcirculation system.
+Estimating the capillary area can assist medical personals in the decision-making process towards the patient's treatment.
+Readily available handheld microscopes have allowed the capturing of capillary images from the microcirculation system.
 However, quantifying these capillaries in the captured images remains a tedious labor-intense job subject to inter-observer variability.
 This paper presents an end-to-end system that can detect the capillaries and quantify the capillary area captured by these handheld microscopic devices.
 We evaluated our system with an industrial MedTech partner specialized in tailored patient therapy by assessing the microcirculation system.
-This system has a high clinical relevance because it significantly reduces the time to quantify capillaries from 2 minutes to less than 2 seconds by automating the laborious task of annotating the capillaries in the image.
+The proposed system has a high clinical relevance because it significantly reduces the time to quantify capillaries from 2 minutes to less than 2 seconds by automating the laborious task of annotating the capillaries in the image.
 Furthermore, it eliminates inter-observer variability by standardizing the analysis process using deep learning algorithms.
 
 # Statement of need
@@ -49,22 +49,22 @@ The authors have provided an extensive literature review in section 2 of the pap
 
 The software has been used for the following clinical trials conducted by ODI Medical AS[@odi:2022]:
 
-- Capillary Detection from patients who recieved support from a Extracorporeal Membrane Oxygenation Machines.
-- Capillary Detection from patients with Acute Heart Diseases.
-- Capillary Detection from diabetic patients.
 - Capillary Detection from Covid19 patients.
+- Capillary Detection from diabetic patients.
+- Capillary Detection from patients with Acute Heart Diseases.
+- Capillary Detection from patients who recieved support from a Extracorporeal Membrane Oxygenation Machines.
 
 # System Design
 
 The proposed system contains six main blocks: the algorithms, backend, API, distributed task queue, server, and frontend.
-The sysem design and interaction between these blocks are highlighted in figures \autoref{fig:context}, \autoref{fig:container} and \autoref{fig:component}.
+The system design and interaction between these blocks are highlighted in figures \autoref{fig:context}, \autoref{fig:container} and \autoref{fig:component}.
 
 Figure \autoref{fig:context} starts with the high-level overview of the system and shows the system context and the interaction between the blocks and the user.
 Figure \autoref{fig:container} shows the system containers within the system context and shows the high-level technical blocks within the containers.
 Figure \autoref{fig:component} is a detailed view of the system containers and breaks down each container identifying the responsible functions that execute a set of specific actions.
 
 The main components of the technology stack included Tensorflow library [@abadi2016tensorflow], React library [@gackenheimer2015introduction], Django server-side web framework [@forcier2008python], Nginx reverse proxy [@nedelcu2010nginx], Gunicorn HTTP server [@gunicorn2017http], Celery [@mcleod2015framework], Redis [@carlson2013redis], Postgres [@conrad2021database] and Django REST framework toolkit [@hillar2018django].
-Our current systems run on an Ubuntu server served by DigitalOcean cloud. However, the system is containerized. Therefore, it can run in any other cloud service provider like AWS, Azure, GCP or locally on the computer.
+Our current systems run on an Ubuntu server served by DigitalOcean cloud. However, the system is containerized. Therefore, it can run in any other cloud service provider like AWS, Azure, GCP or locally on computer.
 
 
 
