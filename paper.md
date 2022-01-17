@@ -57,11 +57,11 @@ The software has been used for the following clinical trials conducted by ODI Me
 # System Design
 
 The proposed system contains six main blocks: the algorithms, backend, API, distributed task queue, server, and frontend.
-The system design and interaction between these blocks are highlighted in figures \autoref{fig:context}, \autoref{fig:container} and \autoref{fig:component}.
+The system design and interaction between these blocks are highlighted in \autoref{fig:context}, \autoref{fig:container} and \autoref{fig:component}.
 
-Figure \autoref{fig:context} starts with the high-level overview of the system and shows the system context and the interaction between the blocks and the user.
-Figure \autoref{fig:container} shows the system containers within the system context and shows the high-level technical blocks within the containers.
-Figure \autoref{fig:component} is a detailed view of the system containers and breaks down each container identifying the responsible functions that execute a set of specific actions.
+\autoref{fig:context} starts with the high-level overview of the system and shows the system context and the interaction between the blocks and the user.
+\autoref{fig:container} shows the system containers within the system context and shows the high-level technical blocks within the containers.
+\autoref{fig:component} is a detailed view of the system containers and breaks down each container identifying the responsible functions that execute a set of specific actions.
 
 The main components of the technology stack included Tensorflow library [@abadi2016tensorflow], React library [@gackenheimer2015introduction], Django server-side web framework [@forcier2008python], Nginx reverse proxy [@nedelcu2010nginx], Gunicorn HTTP server [@gunicorn2017http], Celery [@mcleod2015framework], Redis [@carlson2013redis], Postgres [@conrad2021database] and Django REST framework toolkit [@hillar2018django].
 Our current systems run on an Ubuntu server served by DigitalOcean cloud. However, the system is containerized. Therefore, it can run in any other cloud service provider like AWS, Azure, GCP or locally on computer.
